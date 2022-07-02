@@ -1,0 +1,12 @@
+- Create main page
+- Links
+    - Videos
+    - Code Interview Questions
+    - Projects
+        - Personal
+        - Tutorials
+    - Types of Jobs
+    - Productivity ?
+    - Personal Blogs ?
+- Create Video Page
+    
