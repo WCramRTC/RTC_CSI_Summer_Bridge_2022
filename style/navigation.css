@@ -1,0 +1,61 @@
+nav {
+    border: 1px solid black;
+}
+
+nav > h1 {
+    font-size:  2rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav > .nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    max-width: 750px;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+@media (max-width: 480px) {
+    nav {
+        background-color: red;
+    }
+}
+
+@media  (min-width: 481px) and  (max-width: 768px) {
+    nav {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 769px){
+    nav {
+        background-color: pink;
+    }
+
+    nav > .nav-links {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    nav {
+        background-color: orange;
+    }
+}
+
+@media (min-width: 1201px) {
+    nav {
+        background-color: yellow;
+    }
+}
