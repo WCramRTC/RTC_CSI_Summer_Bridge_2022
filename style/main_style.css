@@ -1,0 +1,25 @@
+#hero-container {
+    width: 100vw;
+    height: 80vw;
+    max-height: 900px;
+    background-color: darkred;
+}
+
+
+
+.center {
+
+    height: 100%;
+    margin: 0 auto;
+    width: 900px;
+    
+    background-color: white;
+}
+
+@media (max-width: 990px) {
+    .center {
+
+        width: 100%;
+    }
+}
+
