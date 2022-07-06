@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renton Technical College - Summer Bridge - 2022 - Template</title>
+    <link href="style/reset.css" rel="stylesheet">
+    <link href="style/navigation.css" rel="stylesheet">
+    <link href="style/main_style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">RTC Summer Bridge</a>
+            <a href="#">Videos</a>
+            <a href="code.html">Code</a>
+            <a href="#">Projects</a>
+            <a href="#">Links</a>       
+        </div>
+        
+    </nav>
+    <div id="container">
+        <div class="center">
+           <div id="code-day1" class="code-template">
+                <h2>Day 1 - 07/05/2022</h2>
+               <div class="code-question">
+                <p>Coding Question: Fizz Buzz</p>
+                <p>You need to write a program that prints the numbers from 1 to 100 such that:</p>
+                <ul>
+                    <li>If the number is a multiple of 3, you need to print "Fizz" instead of that number.</li>
+                    <li>If the number is a multiple of 5, you need to print "Buzz" instead of that number.</li>
+                    <li>If the number is a multiple of both 3 and 5, you need to print "FizzBuzz" instead of that number.</li>
+                </ul>
+                <br>
+                <a href="https://www.makeuseof.com/fizzbuzz-challenge/">How to Complete the FizzBuzz Challenge in 5 Programming Languages</a>
+                <br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QPZ0pIK_wsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <div class="code-example">
+                <strong>C# - Credit To Denis for solving</strong>
+                    <p>
+                        <br>
+                        for(int i = 0; i &lt; 20; i++) {<br><br>
+                            // If number is div by 3<br><br>
+                            &emsp;if(i % 3 == 0 && i % 5 == 0) {<br>
+                                &emsp;&emsp;Console.WriteLine("FizzBuzz");<br>
+                                &emsp;}<br>
+                                &emsp;else if ( i % 3 == 0) {<br>
+                                &emsp;&emsp;Console.WriteLine("Fizz");<br> 
+                                &emsp;}<br>
+                                &emsp;else if ( i % 5 == 0 ) {<br>
+                                    &emsp;&emsp;Console.WriteLine("Buzz");<br>
+                                &emsp;}<br>
+                                &emsp;else {<br>
+                                    &emsp;&emsp;Console.WriteLine(i);<br>
+                                &emsp;}<br>
+                            }<br>
+                            <br>
+                            Console.WriteLine();<br>
+                    </p>
+               </div>
+               <div class="code-example">
+                <strong>Python  - Credit To Denis for solving</strong>
+                    <p>
+                        <br>for x in range(20):<br>
+                        <br>
+                        &emsp;if x % 3 == 0 and x % 5 == 0:<br>
+                        &emsp;&emsp;print("FizzBuzz")<br>
+                        &emsp;elif x % 3 == 0:<br>
+                        &emsp;&emsp;print("Fizz")<br>
+                        &emsp;elif x % 5 == 0:<br>
+                        &emsp;&emsp;print("Buzz")<br>
+                        &emsp;else:<br>
+                        &emsp;&emsp;print(x)
+                    </p>
+               </div>
+               <div class="code-example">
+                <strong>C++</strong>
+                    <p>
+                        for (int i = 0; i &lt; 20; i++) {<br>
+                            <br>
+                            &emsp;if(i % 3 == 0 && i % 5 == 0) {<br>
+                                &emsp;&emsp;cout &lt;&lt; "FizzBuzz" &lt;&lt; "\n";<br>
+                                &emsp;}<br>
+                                &emsp;else if (i % 3 == 0) {<br>
+                                    &emsp;&emsp;cout &lt;&lt; "Fizz" &lt;&lt; "\n";<br>
+                                    &emsp;}<br>
+                                    &emsp;else if (i % 5 == 0 ) {<br>
+                                        &emsp;&emsp;cout &lt;&lt; "Buzz" &lt;&lt; "\n";<br>
+                                        &emsp;}<br>
+                                        &emsp;else {<br>
+                                            &emsp;&emsp;cout &lt;&lt; i &lt;&lt; "\n";<br>
+                            }<br>
+                    </p>
+               </div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
