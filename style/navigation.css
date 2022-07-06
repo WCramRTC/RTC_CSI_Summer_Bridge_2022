@@ -2,7 +2,8 @@
 
 nav {
     font-family: 'Mingzat', sans-serif;
-    background-color: rgb(252, 221, 221);
+    font-weight: bold;
+    background-color: rgb(254, 243, 243);
     color: black;
     padding: 2vw 0;
 }
