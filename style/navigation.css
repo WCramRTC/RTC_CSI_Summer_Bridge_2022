@@ -2,9 +2,9 @@
 
 nav {
     font-family: 'Mingzat', sans-serif;
-    background-color: rgb(252, 221, 221);
+    background-color: rgb(254, 243, 243);
     color: black;
-    padding: 2vw 0;
+    padding: .5vw 0;
 }
 
 
@@ -20,7 +20,6 @@ nav > .nav-links {
 }
 
 nav a {
-    padding: 5px;
     text-decoration: none;
     color: black;
 }
