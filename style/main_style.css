@@ -112,6 +112,26 @@ html {
 
 /* Videos */
 
-#video {
-    
+#videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 100%;
+}
+
+.video {
+    border: 1px solid white;
+    height: 300px;
+    width: 100%;
+    padding: 1vw;
+}
+
+@media (min-width: 440px) and(max-width: 990px) {
+
+    #videos {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }
